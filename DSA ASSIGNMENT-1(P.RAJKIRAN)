@@ -2,11 +2,11 @@
 library(robotstxt)
 library(rvest)
 
-#url of amazon product
+#url of flipkart product
 url <- "https://www.flipkart.com/search?q=REALME&otracker=search&otracker1=search&marketplace=FLIPKART"
 path <- paths_allowed(url)
 
-#parse flipcart html pages for data
+#parse flipkart html pages for data
 web <- read_html(url)
 
 #cm_cr-review_list.review-date
